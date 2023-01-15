@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P";
+  background-color: #000080;
+  font-size: 22px;
+  color: #fff;
+}
+
+[class*="__container"] {
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.btn {
+  color: #fff;
+  font-family: "Press Start 2P";
+  font-size: 22px;
+  border: solid white 2px;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #000080;
+  display: block;
+}
+
+.header__title {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.header__question-mark {
+  font-size: 40px;
+  padding: 30px 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #000080;
+}
+
+/* .header__question-mark::after {
+  position: absolute;
+  left: -62px;
+  top: 50%;
+  height: 4px;
+  width: 100vw;
+  background-color: #fff;
+  content: "";
+}
+
+.header__question-mark::before {
+  position: absolute;
+  right: -62px;
+  top: 50%;
+  height: 4px;
+  width: 100vw;
+  background-color: #fff;
+  content: "";
+} */
+
+.main__input {
+  position: relative;
+  border: solid white 2px;
+  padding: 20px 20px;
+  /* display: inline-block; */
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/*       Main      */
+
+.page {
+  padding: 20px 20px;
+  margin-top: 62px;
+  flex: 1 1 auto;
+}
+
+.page__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__input::placeholder {
+  background: none;
+}
+
+.main__input {
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 32px;
+  max-width: 180px;
+  min-height: 150px;
+  color: #000080;
+  border-radius: 8px;
+}
+
+.main__left {
+  flex: 0 1 50%;
+}
+
+.main__right {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.main__title {
+  margin-bottom: 92px;
+}
+
+.main__highscore {
+  margin-top: auto;
+}
+
+/*    Footer   */
+
+.footer {
+  padding: 10px;
+}
+
+.copyright__body {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.copyright__body p {
+  font-size: 11px;
+}
