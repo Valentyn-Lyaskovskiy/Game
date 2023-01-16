@@ -66,36 +66,12 @@ header {
   border-radius: 8px;
   color: #000080;
   border-bottom: 3px solid #fff;
-  /* bottom: -3px;
-  left: 384px; */
 }
-
-/*
-.header__question-mark::after {
-  position: absolute;
-  left: -62px;
-  top: 50%;
-  height: 4px;
-  width: 100vw;
-  background-color: #fff;
-  content: "";
-}
-
-.header__question-mark::before {
-  position: absolute;
-  right: -62px;
-  top: 50%;
-  height: 4px;
-  width: 100vw;
-  background-color: #fff;
-  content: "";
-} */
 
 .main__input {
   position: relative;
   border: solid white 2px;
   padding: 20px 20px;
-  /* display: inline-block; */
 }
 
 .header__wrapper {
