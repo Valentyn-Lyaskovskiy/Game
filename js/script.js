@@ -79,7 +79,4 @@ document.querySelector(".main__play").addEventListener("click", function () {
     document.querySelector(".main__text").textContent = `✨ Score: ${score}`;
     secretNumber = Math.trunc(Math.random() * 20) + 1;
   });
-  console.log(again);
-  console.log(guess, typeof guess);
 });
-// document.querySelector(".main__input").value = 8;

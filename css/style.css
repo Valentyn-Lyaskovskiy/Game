@@ -57,17 +57,17 @@ header {
 
 .header__question-mark {
   position: absolute;
-  /* bottom: 0;
+  bottom: 0;
   left: 50%;
-  transform: translate(10%, 0); */
+  transform: translate(-50%, 50%);
   font-size: 40px;
   padding: 30px 30px;
   background-color: #fff;
   border-radius: 8px;
   color: #000080;
   border-bottom: 3px solid #fff;
-  bottom: -3px;
-  left: 384px;
+  /* bottom: -3px;
+  left: 384px; */
 }
 
 /*
