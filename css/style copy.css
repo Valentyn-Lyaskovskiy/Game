@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P";
+  background-color: #000080;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+[class*="__container"] {
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 34px;
+  margin-bottom: 40px;
+}
+
+.modal {
+  padding: 20px 30px;
+  font-size: 32px;
+  font-family: "Press Start 2P";
+  border-radius: 24px;
+  cursor: pointer;
+  color: #000080;
+  border: 0;
+}
+
+/* .hidden 
+  display: none;
+} */
+
+.close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  font-size: 24px;
+  border-radius: 24px;
+  cursor: pointer;
+  color: #000080;
+}
+
+.class-modal {
+  position: relative;
+}
