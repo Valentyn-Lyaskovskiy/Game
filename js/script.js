@@ -29,7 +29,8 @@ document.querySelector(".main__play").addEventListener("click", function () {
     document.querySelector(".header__btn").style.backgroundColor = "#fff";
     document.querySelector(".main__play").style.backgroundColor = "#fff";
     document.querySelector(".main__input").style.backgroundColor = "#fff";
-    document.querySelector(".main__title").textContent = "👍 Correct Number!";
+    // document.querySelector(".main__title").textContent = "👍 Correct Number!";
+    displayMessage("👍 Correct Number!");
     document.querySelector(".header__question-mark").textContent = secretNumber;
   } else if (guess > secretNumber) {
     if (score > 1) {
