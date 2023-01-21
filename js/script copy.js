@@ -22,6 +22,12 @@ for (let i = 0; i < modalBtns.length; i++) {
 
 closeBtn.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
+
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && !modalWindow.classList.contains("hidden")) {
+    closeModal();
+  }
+});
 /*
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
