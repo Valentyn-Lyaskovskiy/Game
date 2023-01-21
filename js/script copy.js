@@ -3,7 +3,25 @@
 const modalWindow = document.querySelector(".class-modal");
 const overlay = document.querySelector(".overlay");
 const closeBtn = document.querySelector(".close-modal");
-const modalBtns = document.querySelectorAll(".close-modal");
+const modalBtns = document.querySelectorAll(".modal");
+console.log(modalBtns);
+
+const openModal = function () {
+  modalWindow.classList.remove("hidden");
+  overlay.classList.remove("hidden");
+};
+
+const closeModal = function () {
+  modalWindow.classList.add("hidden");
+  overlay.classList.add("hidden");
+};
+
+for (let i = 0; i < modalBtns.length; i++) {
+  modalBtns[i].addEventListener("click", openModal);
+}
+
+closeBtn.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
 /*
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
